@@ -43,18 +43,18 @@
  
  */
 // Answer Question 1 below
-var hoursSpend1 = 0.5
-let hoursPaid1 = 22.50
-var partTimeJobEarnings1 = hoursSpend1 * hoursPaid1
-print(partTimeJobEarnings1)
 
-var hoursSpend2 = 1
-let hoursPaid2 = 20.00
-Double (hoursSpend2)
-var partTimeJobEarnings2 = Double (hoursSpend2) * hoursPaid2
-print(partTimeJobEarnings2)
-
-
+//part 1 - spend half an hour and be paid 22.50 per hour
+var partTimeJobEarnings = 0.0
+partTimeJobEarnings = 22.50 * 0.5
+//part 2 - paid 20.00 for an hour
+partTimeJobEarnings += 20
+//part 3 - spend half of the money
+partTimeJobEarnings /= 2
+//part 4 - babysitting
+partTimeJobEarnings += 25 * 4
+//part 5 - nice meal
+partTimeJobEarnings -= 50
 
 
 /*:
