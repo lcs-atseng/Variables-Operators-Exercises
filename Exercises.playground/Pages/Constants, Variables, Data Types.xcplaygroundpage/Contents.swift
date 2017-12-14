@@ -35,7 +35,7 @@
  
  */
 // Answer Question 1 below
-var firstName = "Alice"
+let firstName = "Alice"
 let lastName = "Tseng"
 var currentGrade = 11
 let reportcardGrade = 99
@@ -52,8 +52,8 @@ let reportcardGrade = 99
  
  */
 // Answer Question 2 below
-let myAge : Int = 16
-let otherAge : Double = 40.0
+let myAge = 16
+let otherAge = 40.0
 Double (myAge)
 let averageAge = (Double(myAge) + otherAge)/2
 
@@ -66,7 +66,7 @@ let averageAge = (Double(myAge) + otherAge)/2
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-var favHobby = "sports"
+var myFavHobby = "sports"
 
 
 /*:
@@ -88,7 +88,7 @@ print("Using 'let' means to have immutable values.")
  
  */
 // Answer Question 5 below
-var randomDemand = 1000000
+var randomDemand = 100_000_000_000
 
 /*:
  ### Question 6
@@ -110,7 +110,9 @@ var randomDemand = 1000000
  */
 // Answer Question 6 below
 var year = 2017
-// Declare a constant //
+let name = "Hal"
+//year = name
+print("It's a syntax error.")
 
 /*:
  ### Question 7
