@@ -35,6 +35,11 @@
  
  */
 // Answer Question 1 below
+var firstName = "Alice"
+let lastName = "Tseng"
+var currentGrade = 11
+let reportcardGrade = 99
+
 
 /*:
  ### Question 2
@@ -47,6 +52,12 @@
  
  */
 // Answer Question 2 below
+let myAge : Int = 16
+let otherAge : Double = 40.0
+Double (myAge)
+let averageAge = (Double(myAge) + otherAge)/2
+
+
 
 
 /*:
@@ -55,6 +66,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
+var favHobby = "sports"
 
 
 /*:
@@ -65,7 +77,7 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
-
+print("Using 'let' means to have immutable values.")
 
 /*:
  ### Question 5
@@ -76,6 +88,7 @@
  
  */
 // Answer Question 5 below
+var randomDemand = 1000000
 
 /*:
  ### Question 6
@@ -96,7 +109,8 @@
  
  */
 // Answer Question 6 below
-
+var year = 2017
+// Declare a constant //
 
 /*:
  ### Question 7
@@ -106,7 +120,7 @@
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
-
+print("Type safety because it enforces code that's less likely to crash your program")
 
 
 

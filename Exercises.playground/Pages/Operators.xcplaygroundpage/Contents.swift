@@ -43,6 +43,18 @@
  
  */
 // Answer Question 1 below
+var hoursSpend1 = 0.5
+let hoursPaid1 = 22.50
+var partTimeJobEarnings1 = hoursSpend1 * hoursPaid1
+print(partTimeJobEarnings1)
+
+var hoursSpend2 = 1
+let hoursPaid2 = 20.00
+Double (hoursSpend2)
+var partTimeJobEarnings2 = Double (hoursSpend2) * hoursPaid2
+print(partTimeJobEarnings2)
+
+
 
 
 /*:
@@ -54,7 +66,7 @@
 
 */
 // Answer Question 2 below
-6 + 4 * 5 - 2
+print(6 + 4 * 5 - 2)
 
 
 
